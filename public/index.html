@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<title>Freezer Inventory</title>
+	<!-- <link rel="stylesheet" type="text/css" href="normalize.css"> -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Vast+Shadow|Oswald|Playfair+Display' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+	<div class="buttons">
+		<button class="logIn">Log In</button>
+		<button class="logOff">Log Out</button>
+	</div>
+	<h3 class="name"></h3>
+	<h1> Freezer Inventory</h1>
+	<h3 class='noauth'>
+	 You are currently logged in with a guest account. Feel free to play around, but be careful what you write, because the next user will see it too! Click log in to make a list only you can see
+	</h3>
+	
+	
+	
+	
+		
+		<div class="add-item">
+			
+			<div class="input">
+				<h1> 
+					<form>
+						
+						<input type="text" class="item"><br>
+						<button id='inputbutton' value="Button Value">Add Item</button>
+
+
+					</form>
+					
+				</h1>
+			</div>
+		</div>
+		
+		<div class="freezer">
+			
+			<ul id="list">
+
+			</ul>
+			
+			
+		</div>
+
+		<div class="recipes">
+			<button id='getRecipe'>Select Items and Then Click Here For Recipes</button>
+			<ul id="recipe">
+
+			</ul>
+			
+			
+		</div>
+	
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	
+	<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+  	<script src="js/script.js"></script>
+</body>
+</html>
+
