@@ -4,6 +4,7 @@ body {
 }
 h1{
 	font-size: 5em;
+	max-width: 100%;
 	color: forestgreen;
 	font-family: 'Vast Shadow', cursive;
 	margin: auto;
@@ -34,9 +35,18 @@ h3 {
 
 }
 .freezer{
-	margin: 0 auto;
+	
 	text-align: center;
-	max-width: 500px
+}
+
+#list  {
+	max-width: 550px;
+	list-style: none;
+	font-size: 1.5em;
+	padding: 20px;
+	font-family: 'Playfair Display', serif;
+	text-align: left;
+	margin: 0 auto
 }
 
 .item {
@@ -54,25 +64,13 @@ form {
 	margin-bottom: -75px;
 }
 
-
-#list  {
-	max-width: 400px;
-	margin: 0 auto;
-	list-style: none;
-	font-size: 1.5em;
-	padding: 20px;
-	font-family: 'Playfair Display', serif;
-
-	
-}
-
 #list li {
 	margin-bottom: 5px;
 }
 
 .recipes {
+	text-align: center;
 	
-	text-align: center
 }
 
 #recipe {
@@ -80,16 +78,22 @@ form {
 	
 }
 
+#getRecipe {
+	margin-top: 12px;
+	
+}
+
 .listed {
 	display: inline-block;
 	position: relative;
-
-    cursor: pointer;
+	cursor: pointer;
     font-size: 1.5em;
-	
 	font-family: 'Playfair Display', serif;
 }
 
+.noauth {
+	max-width: 75%;
+}
 
 
 span { 
@@ -104,7 +108,6 @@ span {
 button {
 	color: #333;
     background-color: #fff;
-    
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
@@ -123,16 +126,12 @@ button {
     font-family: 'Oswald', sans-serif;
 } 
 
-#list {
-	text-align: left
-}
+
 #inputbutton {
 	margin-top: -80px;
 }
 
 .deletebutton{
-	
-	float: right;
 	box-shadow: 2px 2px 2px #888888;
 	font-size: 14px;
 	line-height: 1.2;
@@ -178,34 +177,17 @@ button {
   outline: 1px solid #ddd; /* focus style */
 }
 
-@media only screen and (max-width: 500px)  {
-	h1 {
-		font-size: 3em;
 
-	}
-	form {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	}
-	
-	.item {
-	width: 90%;
-	
-	}
-	ul {
-        font-size: 2em
 
+.eighty {
+	float: left;
+	width: 80%;
+         
 	}
-	.deletebutton{
-		font-size: 20px;
-		line-height: 1.2;
-
+.twenty {
+	float: right;
+	width: 20%;
 	}
-	#inputbutton {
-		font-size: 20px;
-		margin-top:-30px;
-	}
-}
 
 
 .overayear{
@@ -221,3 +203,33 @@ button {
 }
 
 
+@media only screen and (max-width: 553px)  {
+	h1 {
+		font-size: 2em;
+
+	}
+	form {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	
+	.item {
+	width: 90%;
+	
+	}
+	ul {
+        font-size: 2em
+
+	}
+	
+	#inputbutton {
+		font-size: 15px;
+		margin-top:-10px;
+	}
+	
+	.name {
+	margin-top: 21px;
+	margin-bottom: 0px;
+	
+	}
+}
