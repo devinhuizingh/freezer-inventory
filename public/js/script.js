@@ -127,15 +127,13 @@ function makeApp(){
 				//console.log(data);
 				
 				$.each(data.matches, function() {
-				  //console.log(this.smallImageUrls[0]);
-				  string=this.smallImageUrls[0];
-
-				  bigPic= (string).replace('=s90', '=s300');
-				  //console.log(bigPic);
-				  $('#recipe').prepend('<a href="https://www.yummly.com/recipe/' + this.id + '"><li class="listed"><img src="' + bigPic +  '" class="pic"><span>'+ this.recipeName +'</span> </li></a>');
-					})
+					//console.log(this.smallImageUrls[0]);
+					string=this.smallImageUrls[0];
+					bigPic= (string).replace('=s90', '=s300');
+					//console.log(bigPic);
+					$('#recipe').prepend('<a href="https://www.yummly.com/recipe/' + this.id + '"><li class="listed"><img src="' + bigPic +  '" class="pic"><span>'+ this.recipeName +'</span> </li></a>');
+				})
 			})
-			
 		}
 		else{ 
 			$("#recipe").html("<li class='listed'>Select one or more items</li>")

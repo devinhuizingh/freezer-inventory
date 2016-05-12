@@ -87,7 +87,7 @@ form {
 	display: inline-block;
 	position: relative;
 	cursor: pointer;
-    font-size: 1.5em;
+	font-size: 1.5em;
 	font-family: 'Playfair Display', serif;
 }
 
@@ -107,23 +107,23 @@ span {
 }
 button {
 	color: #333;
-    background-color: #fff;
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    background-image: none;
-    border: 1.3px solid ;
-    border-color: darkblue;
-    border-radius: 4px;
-    box-shadow: 2px 2px 2px #888888;
-    font-family: 'Oswald', sans-serif;
+	background-color: #fff;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1.3px solid ;
+	border-color: darkblue;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px #888888;
+	font-family: 'Oswald', sans-serif;
 } 
 
 
@@ -174,21 +174,18 @@ button {
 
 
 .checkbox-custom:focus + .checkbox-custom-label {
-  outline: 1px solid #ddd; /* focus style */
+  	outline: 1px solid #ddd; /* focus style */
 }
-
-
 
 .eighty {
 	float: left;
 	width: 80%;
-         
-	}
+}
+
 .twenty {
 	float: right;
 	width: 20%;
-	}
-
+}
 
 .overayear{
 	background-color: red
@@ -209,12 +206,12 @@ button {
 
 	}
 	form {
-	margin-top: 0px;
-	margin-bottom: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 	
 	.item {
-	width: 90%;
+		width: 90%;
 	
 	}
 	ul {
@@ -228,8 +225,8 @@ button {
 	}
 	
 	.name {
-	margin-top: 21px;
-	margin-bottom: 0px;
+		margin-top: 21px;
+		margin-bottom: 0px;
 	
 	}
 }
