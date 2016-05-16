@@ -121,7 +121,7 @@ function makeApp(){
 		//console.log(items);
 
 		if (items.length >= 1) {
-			url = 'https://api.yummly.com/v1/api/recipes?_app_id=eeca60e7&_app_key=16fee2293718af3bc44a29480f727fa5&q='+items+"'";
+			url = 'https://api.yummly.com/v1/api/recipes?_app_id=eeca60e7&_app_key=16fee2293718af3bc44a29480f727fa5&q='+items;
 			//console.log(url);
 			$.get(url, function(data){
 				//console.log(data);
